@@ -1,0 +1,21 @@
+{
+      "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Python Debugger: Current File",
+        "type": "python",
+        "request": "launch",
+        "console": "integratedTerminal",
+        "program": "odoo-dev/odoo/odoo-bin",
+        "args": ["odoo-dev/config/odoo.conf"],
+        "cwd": "${workspaceRoot}"
+      }
+    ]
+  },
+  "folders": [
+    {
+      "path": "../odoo-dev"
+    }
+  ]
+}
