@@ -165,3 +165,6 @@ This stops the containers without deleting your data.
 You can use the "restore a database" option on the Odoo welcome screen to upload a `.zip` exported from Odoo.sh or any other environment.
 
 ---
+
+Contraseña de database al 11-05: sjsq-stem-gn3j
+
