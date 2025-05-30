@@ -20,7 +20,7 @@ services:
       - ./odoo:/mnt/odoo
       - ./custom_addons:/mnt/custom_addons
       - ./config/odoo.conf:/etc/odoo/odoo.conf
+    command: --dev=all -c /etc/odoo/odoo.conf
 
 volumes:
   odoo-db-data:
-  
